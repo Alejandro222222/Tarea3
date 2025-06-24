@@ -1,3 +1,15 @@
+body {
+      animation: cambiarFondo 10s infinite;
+      background: rgb(255, 0, 0); /* color inicial por si carga lento */
+    }
+
+    @keyframes cambiarFondo {
+      0%   { background-color: rgb(255, 0, 0); }      /* rojo */
+      25%  { background-color: rgb(0, 255, 0); }      /* verde */
+      50%  { background-color: rgb(0, 0, 255); }      /* azul */
+      75%  { background-color: rgb(255, 255, 0); }    /* amarillo */
+      100% { background-color: rgb(255, 0, 255); }    /* magenta */
+    }
 #footer{
     background: black;
   }
